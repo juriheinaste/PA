@@ -1,9 +1,14 @@
 // Tsüklid
 
-// fot tsükkel
-// üldtsükkel
-let autod = ['Kia', 'Toyota', 'Ford', 'Nissan'];
-//väljastus
-for(let i = 0; i < autod.length; i++){
-    console.log(autod[i]);
+//while
+//eelkontrolliga tsükkel
+let arv = 5;
+let jagaja = 2;
+while(arv % jagaja !=0){
+    jagaja++;
+}
+if(arv == jagaja){
+    console.log(arv + ' on algarv')
+} else {
+    console.log(arv + ' ei ole algarv');
 }

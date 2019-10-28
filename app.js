@@ -41,3 +41,35 @@ const arvud = [1, 2, 3, 4, 5];
 console.log(arvud);
 arvud.push(6);
 console.log(arvud);
+
+/*let passWord = prompt('Your Password: ');
+if (passWord === '1234') {
+    alert ('Welcome!');
+} else {
+    alert ('Wrong Password. Try Again!');
+}
+*/
+
+/*let myAge = prompt('How old are you?');
+if (myAge == 0){
+    alert ('HA HA, nice one!');
+}
+    else if (myAge < 14){
+      alert ('Too young, turn around!');
+
+} else if (myAge == 14){
+    alert ('Wait a little!');
+}
+else {
+    alert ('You may proceed!');
+}
+*/
+
+/*let moneyInBank = parseInt(prompt('How much do you have?'));
+let moneyOut = parseInt(prompt('How much do you want to withdraw?'))
+if (moneyOut > moneyInBank){
+    alert('Not enough money')
+} else {
+    let moneyLeft = moneyInBank - moneyOut
+    alert ('You have ' + moneyLeft + ' on your account')
+}*/

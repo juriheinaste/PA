@@ -1,14 +1,15 @@
-// Tsüklid
+// Funktsioonid
 
-//while
-//eelkontrolliga tsükkel
+// arvu paarsuse kontroll
+// defineerime suvaline täisarv
 let arv = 5;
-let jagaja = 2;
-while(arv % jagaja !=0){
-    jagaja++;
-}
-if(arv == jagaja){
-    console.log(arv + ' on algarv')
-} else {
-    console.log(arv + ' ei ole algarv');
-}
+// arvutame jääk 2-ga jagamisel
+let jaak = arv % 2;
+// kui jaak on võrdne nulliga
+if( jaak === 0 ){
+  // tegu on paaris avuga
+  console.log(arv + ' on paaris');
+
+   // tegu on paaritu arvuga
+  console.log(arv + ' on paaritu');
+  }
